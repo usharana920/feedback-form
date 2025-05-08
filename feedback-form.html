@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FeedBack</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+        <label for="">Full Name:</label>
+        <input type="text" placeholder="Enter your name" maxlength="50" required>
+        <br> <br>
+        <label for="">Email Address:</label>
+        <input type="email" placeholder="Enter your email address" maxlength="50"required>
+        <br> <br>
+        <label for="">Phone number:</label>
+        <input type="optional" placeholder="Enter your phone number" maxlength="10" required>
+        <br><br>
+        <label for="Age">Age group:</label>
+        <input type="radio" name="Age"> Under 18
+        <input type="radio" name="Age"> 18-30
+        <input type="radio" name="Age"> 30-50
+        <input type="radio" name="Age"> 50+
+        <br><br>
+        <label for="gender">Gender:</label>
+        <input type="radio" name="gender"> Male
+        <input type="radio"name="gender"> Female
+        <input type="radio" name="gender"> other
+        <br><br>
+        <label for="">Select your country:</label>
+        <input list="">
+        <datalist id="country">
+            <option value="">Nepal</option>
+            <option value="">India</option>
+            <option value="">Bhutan</option>
+            <option value="">Bangladesh</option>
+            <option value="">Pakistan</option>
+        </datalist>                 
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend>FeedBack For Our Website</legend>
+        <br><br>
+        <label for="features">What Features do you like the most?</label>
+        <input type="checkbox" name="features">UI design
+        <input type="checkbox" name="features">Content
+        <input type="checkbox" name="features">Speed
+        <input type="checkbox" name="features">Mobile Friendliness
+        <br><br>
+        <label for="">Rate your experience:</label>
+        <select name="" id="">
+            <option value="excellent">excellent</option>
+            <option value="good">good</option>
+            <option value="average">average</option>
+            <option value="poor">poor</option>
+        </select>
+        <br><br>
+        <label for="">Comments and Suggestion:</label>
+        <textarea placeholder="Comments and Suggestion" maxlength="50" minlength="20"></textarea>
+        <br><br>
+        <label for="answer">Would you recommend our site to others?</label>
+        <input type="radio" name="answer">Yes
+        <input type="radio" name="answer"> No
+        <br><br>
+        <label for="">Upload a Screenshot:</label>
+        <input type="file">
+        <br><br>
+        <label for="">Date of visit:</label>
+        <input type="date">
+        <br><br>
+        </fieldset>
+        <button>Submit</button>
+        <br><br>
+        <button>Reset</button>
+
+    </form>
+</body>
+</html>
